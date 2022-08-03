@@ -14,7 +14,7 @@ pushd "$DIR/../frontend"
   aws s3 cp --recursive --acl public-read build/ "s3://$PROJECT_NAME-frontend/"
 popd
 
-pushd "$DIR/../backend/"
+pushd "$DIR/.."
   npm run build
   pushd build
     zip -r rest_api.zip ./
