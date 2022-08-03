@@ -28,6 +28,8 @@
     "testEnvironment": "node",
     "collectCoverage": true,
     "testResultsProcessor": "jest-sonarcloud-reporter",
+    "reportPath": "coverage",
+    "reportFile": "test-report.xml",
     "coveragePathIgnorePatterns": [
       "/node_modules/",
       "/tests/"
