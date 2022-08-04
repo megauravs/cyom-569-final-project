@@ -16,8 +16,8 @@ services:
       - DEBUG=1
       # These variables are needed for localstack
       - AWS_DEFAULT_REGION=us-east-1
-      - AWS_ACCESS_KEY_ID=AKIA5ALZQDJOWJCEXDTX
-      - AWS_SECRET_ACCESS_KEY=ltfNAidJSiZbHJs/+G2XvF8nNk6qYEvIECETt/PG
+      - AWS_ACCESS_KEY_ID=sample_key
+      - AWS_SECRET_ACCESS_KEY=sample_access_key
       - LAMBDA_EXECUTOR=local
       - DOCKER_HOST=unix:///var/run/docker.sock
       - DATA_DIR=/tmp/localstack/data
